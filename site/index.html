@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HBX | Modern E-Ticaret Vitrini</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">HBX</div>
+    <input id="search" class="search" type="search" placeholder="Ürün veya marka ara" aria-label="Arama" />
+    <div class="actions">
+      <button class="btn ghost">Giriş Yap</button>
+      <button class="btn">Sepet (2)</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Öne Çıkan Kampanya</p>
+        <h1>Elektronikte mega fırsatlar</h1>
+        <p>Favori markalarda sınırlı süreli indirimler. Sponsorlu kampanya.</p>
+        <div class="hero-actions">
+          <button class="btn">Fırsatları Gör</button>
+          <button class="btn ghost">Sponsor Detayı</button>
+        </div>
+      </div>
+      <div class="hero-ad" aria-label="sponsor-home-hero">
+        <img src="https://images.unsplash.com/photo-1491933382434-500287f9b54b?auto=format&fit=crop&w=1200&q=80" alt="Sponsorlu banner" loading="lazy" />
+        <div class="ad-badge">Sponsorlu</div>
+      </div>
+    </section>
+
+    <section class="ad-rail">
+      <div class="ad-card" aria-label="sponsor-top">
+        <div class="ad-badge">Sponsorlu</div>
+        <p>Premium teslimat üyeliği ile kargo ücretsiz.</p>
+        <button class="btn ghost">Hemen Keşfet</button>
+      </div>
+      <div class="ad-card" aria-label="sponsor-top-b">
+        <div class="ad-badge">Sponsorlu</div>
+        <p>Bankkart ile 3 taksit + %5 ekstra indirim.</p>
+        <button class="btn ghost">Detaylar</button>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="Ürün Listesi">
+      <header class="section-header">
+        <div>
+          <p class="eyebrow">Kategoriler</p>
+          <h2>Trend ürünler</h2>
+        </div>
+        <div class="filters">
+          <label>
+            <input type="checkbox" id="onlySponsored" />
+            Sadece sponsorlu ürünler
+          </label>
+        </div>
+      </header>
+      <div id="productGrid" class="grid-list"></div>
+    </section>
+
+    <section class="inline-ad" aria-label="sponsor-inline">
+      <div class="ad-badge">Sponsorlu</div>
+      <div>
+        <p class="eyebrow">Özel Teklif</p>
+        <h3>Bugün kargo bedava + %10 kupon</h3>
+        <p>Sepette KARGO10 kodunu kullanın. İş ortağımızla sağlanır.</p>
+      </div>
+      <button class="btn">Kodu Kopyala</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h4>HBX</h4>
+      <p>Hepsiburada benzeri modern e-ticaret vitrini. Reklam dostu, hızlı ve uyumlu.</p>
+    </div>
+    <div>
+      <p class="eyebrow">Yardım</p>
+      <ul>
+        <li><a href="#">Siparişlerim</a></li>
+        <li><a href="#">İade &amp; Değişim</a></li>
+        <li><a href="#">Güvenli alışveriş</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="eyebrow">Reklam</p>
+      <ul>
+        <li><a href="#">Reklam verin</a></li>
+        <li><a href="#">Sponsorluk</a></li>
+        <li><a href="#">A/B testleri</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
