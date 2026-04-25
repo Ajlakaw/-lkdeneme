@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HızlıSepet - Alışverişin Hızlı Hali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="logo" href="#">Hızlı<span>Sepet</span></a>
+        <form class="search" role="search">
+          <input type="search" placeholder="Ürün, kategori veya marka ara" />
+          <button type="submit">Ara</button>
+        </form>
+        <nav class="top-actions">
+          <a href="#">Giriş Yap</a>
+          <a href="#">Siparişlerim</a>
+          <button class="cart-btn">🛒 Sepetim <span id="cartCount">0</span></button>
+        </nav>
+      </div>
+      <div class="categories container">
+        <a href="#">Elektronik</a>
+        <a href="#">Moda</a>
+        <a href="#">Ev & Yaşam</a>
+        <a href="#">Süpermarket</a>
+        <a href="#">Anne & Bebek</a>
+        <a href="#">Kozmetik</a>
+        <a href="#">Spor & Outdoor</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div>
+          <h1>Bugünün Süper Fırsatları</h1>
+          <p>
+            Popüler ürünlerde anlık indirimleri yakala, ertesi gün teslimat avantajıyla hemen sipariş ver.
+          </p>
+          <button class="primary">Fırsatları Gör</button>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2>Öne Çıkan Ürünler</h2>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="container promos">
+        <article>
+          <h3>Kargo Bedava</h3>
+          <p>500 TL ve üzeri siparişlerde ücretsiz teslimat.</p>
+        </article>
+        <article>
+          <h3>Hızlı Teslimat</h3>
+          <p>Seçili şehirlerde aynı gün kapında.</p>
+        </article>
+        <article>
+          <h3>Kolay İade</h3>
+          <p>14 gün içinde koşulsuz iade fırsatı.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 HızlıSepet. Tüm hakları saklıdır.</p>
+        <div>
+          <a href="#">Yardım Merkezi</a>
+          <a href="#">İletişim</a>
+          <a href="#">Gizlilik</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
